@@ -5,8 +5,8 @@ public class DNAReverse {
         DNAReverse y = new DNAReverse();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the dna pattern: ");
-        String string = sc.next();
-        System.out.println(y.reverse(string));
+        String dna_string = sc.next();
+        System.out.println(y.reverse(dna_string));
     }
     public String reverse(String dna) {
         String new_dna="";

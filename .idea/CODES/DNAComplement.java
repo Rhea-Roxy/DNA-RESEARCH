@@ -6,8 +6,8 @@ public class DNAComplement {
         DNAComplement y = new DNAComplement();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the dna pattern: ");
-        String string = sc.next();
-        System.out.println(y.complement(string));
+        String dna_string = sc.next();
+        System.out.println(y.complement(dna_string));
     }
     public String complement(String dna) {
         String new_dna="";

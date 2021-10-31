@@ -3,8 +3,11 @@ package com.coding;
 public class DNAComplement {
     public static void main(String[] args) {
 
-        DNAComplement yes = new DNAComplement();
-        System.out.println(yes.complement("aagttcc"));
+        DNAComplement y = new DNAComplement();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the dna pattern: ");
+        String string = sc.next();
+        System.out.println(y.complement(string));
     }
     public String complement(String dna) {
         String new_dna="";

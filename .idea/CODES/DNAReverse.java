@@ -3,7 +3,10 @@ package com.company;
 public class DNAReverse {
     public static void main(String[] args) {
         DNAReverse y = new DNAReverse();
-        System.out.println(y.reverse("ttggaa"));
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the dna pattern: ");
+        String string = sc.next();
+        System.out.println(y.reverse(string));
     }
     public String reverse(String dna) {
         String new_dna="";
